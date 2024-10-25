@@ -16,7 +16,9 @@
   "description": "123",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start:prod": "tsc && node dist/main.js",
+    "start:multi": "tsc && node dist/cluster.js"
   },
   "author": "",
   "license": "ISC"
