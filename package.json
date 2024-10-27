@@ -22,5 +22,8 @@
     "start:multi": "tsc && node dist/cluster.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
 }
