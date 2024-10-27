@@ -7,7 +7,7 @@ import { User } from "./interfaces/user";
 import { usersDB } from "./database/db";
 import { routeHandler } from "./paths";
 
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 let data: User[] = usersDB;
 
 export const server = http
